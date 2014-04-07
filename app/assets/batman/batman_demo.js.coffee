@@ -17,6 +17,9 @@ Batman.config.pathToHTML = '/assets/html'
 Batman.config.usePushState = true
 
 class BatmanDemo extends Batman.App
+
+  @resources 'clients'
+
   # @resources 'products'
   # @resources 'discounts', except: ['edit']
   # @resources 'customers', only: ['new', 'show']
