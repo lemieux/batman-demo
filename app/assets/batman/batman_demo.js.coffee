@@ -18,6 +18,9 @@ Batman.config.usePushState = true
 
 class BatmanDemo extends Batman.App
 
+  @resources 'projects'
+
+
   @resources 'clients'
 
   # @resources 'products'
